@@ -8,7 +8,7 @@ from dotenv import find_dotenv, load_dotenv
 
 TEXT_TEMPLATE = '''
 Slot open for *{}* on *{}*!
-[Book now!](https://www.passport.gov.ph/appointment/individual/schedule)
+[Schedule an appointment](https://www.passport.gov.ph/appointment/individual/schedule)
 '''.strip()
 
 
