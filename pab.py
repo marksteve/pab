@@ -31,7 +31,7 @@ def bot_send_message(token, chat_id, text):
 
 
 def check_site_open(site_id, request_date):
-    max_date = '2018-07-01'
+    max_date = '2018-03-01'
     data = {'requestDate': request_date, 'maxDate': max_date,
             'siteId': site_id, 'slots': 1}
     r = requests.post(
